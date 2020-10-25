@@ -1,9 +1,9 @@
 # Setup
 title: Dark Poole
-url: https://chaehwanli.github.io/
+url: https://chaehwanli.github.io/dark-poole
 paginate: 1
 paginate_path: "/dark-poole/page:num/"
-baseurl: ""
+baseurl: "/dark-poole"
 permalink: pretty
 
 # Gems
