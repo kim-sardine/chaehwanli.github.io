@@ -1,10 +1,11 @@
 # Setup
-title: To the space
-url: https://chaehwanli.github.io
-paginate: 1
-paginate_path: "/page:num/"
-baseurl: ""
-permalink: pretty
+title:          To the space
+url:            https://chaehwanli.github.io
+paginate:       1
+paginate_path:  "/page:num/"
+baseurl:        ""
+permalink:      pretty
+timezone:       Asia/Seoul
 
 # Gems
 plugins:
