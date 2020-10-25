@@ -2,7 +2,7 @@
 title: To the space
 url: https://chaehwanli.github.io
 paginate: 1
-paginate_path: "/dark-poole/page:num/"
+paginate_path: "/page:num/"
 baseurl: ""
 permalink: pretty
 
