@@ -1,6 +1,6 @@
 ---
 layout : post
-title : 'write EPIPE' error is happened when plantuml previews at visual studio code
+title : write EPIPE error is happened when plantuml previews at visual studio code
 ---
 
 # Error Message
@@ -21,6 +21,7 @@ at processTicksAndRejections (internal/process/task_queues.js:94:5)
 refer to https://github.com/qjebbs/vscode-plantuml/issues/167
 
 1. The settings will not be correted. but I don't know where is settings.
+
 2. anyway follows callstacks
 ```
 at c:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14\out\src\plantuml\renders\local.js:112:35
