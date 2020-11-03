@@ -28,18 +28,15 @@ at c:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14\out\src\plantuml\ren
 ```
 3. Oops... I didn't install 'Java' yet.
 
-# Java is not installed yet!
+> Java is not installed yet!
 [Installed tools for my notebook](https://chaehwanli.github.io/2020/11/03/Installed-tools-for-my-notebook/)
 
 4. test java and plantuml.jar
 > plantuml.jar is located in extention is installed 
-
-```
-C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar C:\GitHubRepo\chaehwanli.github.io\plantuml\amq
+> C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar C:\GitHubRepo\chaehwanli.github.io\plantuml\amq
 No diagram found
+> C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml
 
-C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml
-```
 
 5. Error Message by cli
 ```
@@ -56,14 +53,12 @@ java -jar plantuml.jar -testdot
 ```
 
 6. try "java -jar plantuml.jar -testdot"
-```
-C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar -testdot C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml
-Error: No dot executable found
-Error: only sequence diagrams will be generated
-```
+> C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar -testdot C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml
+> Error: No dot executable found
+> Error: only sequence diagrams will be generated
 
 7. install Graphviz
-install [Graphviz](https://graphviz.org/download/)
+> install [Graphviz](https://graphviz.org/download/)
 > https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/
 
 8. error page
