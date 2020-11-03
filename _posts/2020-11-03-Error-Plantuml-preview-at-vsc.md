@@ -27,7 +27,6 @@ refer to https://github.com/qjebbs/vscode-plantuml/issues/167
 at c:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14\out\src\plantuml\renders\local.js:112:35
 ```
 3. Oops... I didn't install 'Java' yet.
-
 > Java is not installed yet!
 [Installed tools for my notebook](https://chaehwanli.github.io/2020/11/03/Installed-tools-for-my-notebook/)
 
