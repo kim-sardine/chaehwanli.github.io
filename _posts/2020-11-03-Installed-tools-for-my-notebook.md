@@ -5,7 +5,7 @@ title : Installed tools for my notebook
 
 
 # Source Editor
-Visual Studio Code (https://code.visualstudio.com/)
+Visual Studio Code [https://code.visualstudio.com/](https://code.visualstudio.com/)
 ### Extentions for Visual Sutudio Code
 * Markdown previewer
 > ctrl+Shift + p > Extentions > "Markdown Preview Enhanced"
@@ -13,8 +13,8 @@ Visual Studio Code (https://code.visualstudio.com/)
 > ctrl+Shift + p > Extentions > "PlantUML"
 
 # Git
-Git for Windows (https://git-for-windows.github.io/)
+Git for Windows [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
 
 # GitHub Desktop
-GitHub Desktop for Windows (https://desktop.github.com/)
+GitHub Desktop for Windows [https://desktop.github.com/](https://desktop.github.com/)
 
