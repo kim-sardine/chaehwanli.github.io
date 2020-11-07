@@ -71,10 +71,9 @@ C:\Users\chaeh>dot -c
 Error: failed to open C:\Program Files\Graphviz 2.44.1\bin\config6 for write.
 ```
 > https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed(https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed)
-
-- in a browser goto https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
-- download the graphviz-2.44.1-win32.zip
-- open the downloaded zip file and place the bin directory somewhere on your system
+>- in a browser goto https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
+>- download the graphviz-2.44.1-win32.zip
+>- open the downloaded zip file and place the bin directory somewhere on your system
 
 10. run again
 ```
