@@ -42,7 +42,9 @@ No diagram found
 Dot Executable : null
 No dot executable found 
 Cannot find Graphviz. You should try
+```
 
+```
 @staruml
 testdot
 @enduml
