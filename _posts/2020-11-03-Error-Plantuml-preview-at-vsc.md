@@ -18,7 +18,7 @@ at runMicrotasks ()
 at processTicksAndRejections (internal/process/task_queues.js:94:5)
 ```
 
-refer to https://github.com/qjebbs/vscode-plantuml/issues/167
+refer to https://github.com/qjebbs/vscode-plantuml/issues/167(https://github.com/qjebbs/vscode-plantuml/issues/167)
 
 1. The settings will not be correted. but I don't know where is settings.
 
@@ -56,7 +56,7 @@ Error: only sequence diagrams will be generated
 
 7. install Graphviz
 > install [Graphviz](https://graphviz.org/download/)
-https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/
+https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/(https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/)
 
 8. error page
 > ![error page](..\images\graphviz_dot_error_2.png)
@@ -71,7 +71,7 @@ C:\Users\chaeh>dot -c
 Error: failed to open C:\Program Files\Graphviz 2.44.1\bin\config6 for write.
 ```
 > https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed(https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed)
->- in a browser goto https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
+>- in a browser goto https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/(https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/)
 >- download the graphviz-2.44.1-win32.zip
 >- open the downloaded zip file and place the bin directory somewhere on your system
 
