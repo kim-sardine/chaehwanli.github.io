@@ -43,24 +43,22 @@ Dot Executable : null
 No dot executable found 
 Cannot find Graphviz. You should try
 ```
-
 ```
 @staruml
 testdot
 @enduml
-
 or
 java -jar plantuml.jar -testdot
 ```
 
 6. try "java -jar plantuml.jar -testdot"
-> C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar -testdot C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml
-> Error: No dot executable found
-> Error: only sequence diagrams will be generated
+> C:\Users\chaeh\.vscode\extensions\jebbs.plantuml-2.13.14>java -jar plantuml.jar -testdot C:\GitHubRepo\chaehwanli.github.io\plantuml\amqp_apiserver_engineserver.iuml   
+Error: No dot executable found
+Error: only sequence diagrams will be generated
 
 7. install Graphviz
 > install [Graphviz](https://graphviz.org/download/)
-> https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/
+https://www2.graphviz.org/Packages/stable/windows/10/cmake/Release/x64/
 
 8. error page
 ![error page](..\images\graphviz_dot_error_2.png)
