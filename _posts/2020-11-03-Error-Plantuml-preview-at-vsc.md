@@ -64,3 +64,50 @@ java -jar plantuml.jar -testdot
 
 8. error page
 ![error page](..\images\graphviz_dot_error_2.png)
+
+9. there is error about "dot"
+```
+C:\Users\chaeh>dot -v
+dot - graphviz version 2.44.1 (20200629.0846)
+There is no layout engine support for "dot"
+Perhaps "dot -c" needs to be run (with installer's privileges) to register the plugins?
+
+C:\Users\chaeh>dot -c
+Error: failed to open C:\Program Files\Graphviz 2.44.1\bin\config6 for write.
+```
+https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed(https://forum.plantuml.net/11828/for-some-reason-dot-graphviz-has-crashed)
+
+- in a browser goto https://www2.graphviz.org/Packages/stable/windows/10/msbuild/Release/Win32/
+
+- download the graphviz-2.44.1-win32.zip
+
+- open the downloaded zip file and place the bin directory somewhere on your system
+
+10. run again
+```
+C:\Users\chaeh>dot -v
+dot - graphviz version 2.44.1 (20200629.0800)
+libdir = "C:\Program Files\Graphviz 2.44.1\bin"
+Activated plugin library: gvplugin_dot_layout.dll
+Using layout: dot:dot_layout
+Activated plugin library: gvplugin_core.dll
+Using render: dot:core
+Using device: dot:dot:core
+The plugin configuration file:
+        C:\Program Files\Graphviz 2.44.1\bin\config6
+                was successfully loaded.
+    render      :  cairo dot dot_json fig gd gdiplus json json0 map mp pic pov ps svg tk vml vrml xdot xdot_json
+    layout      :  circo dot fdp neato nop nop1 nop2 osage patchwork sfdp twopi
+    textlayout  :  textlayout
+    device      :  bmp canon cmap cmapx cmapx_np dot dot_json emf emfplus eps fig gd gd2 gif gv imap imap_np ismap jpe jpeg jpg json json0 metafile mp pdf pic plain plain-ext png pov ps ps2 svg svgz tif tiff tk vml vmlz vrml wbmp xdot xdot1.2 xdot1.4 xdot_json
+    loadimage   :  (lib) bmp eps gd gd2 gif jpe jpeg jpg png ps svg
+
+
+C:\Users\chaeh>dot -c
+
+C:\Users\chaeh>
+```
+
+11. Success
+Alt+D on .iuml file editor
+![success](..\images\plantuml_preview_in_vsc.png)
