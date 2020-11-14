@@ -1,11 +1,11 @@
 @startuml
 left to right direction
 
-actor recorder
-actor audiodownloader
-actor database
+actor AuthorizedUser as recorder
+actor AudioDownloader as audiodownloader
+actor Storage as storage
 
-rectangle system {
+rectangle "audio storage manager system" {
 usecase downloadAudio
 usecase registryAudio
 usecase addMetaData
@@ -13,21 +13,25 @@ usecase getMetaData
 usecase searchAudio
 usecase writeData
 usecase readData
+usecase login
+usecase authorization
 }
 
 recorder --> registryAudio
-registryAudio .> writeData : <<included>>
+registryAudio .> writeData : <<extened>>
+registryAudio .> login : <<included>>
 
 audiodownloader --> downloadAudio
 downloadAudio .> readData : <<included>>
+downloadAudio .> authorization : <<included>>
 
-writeData --> database
-readData --> database
+readData --> storage
 
 addMetaData .> registryAudio : <<extended>>
 getMetaData .> downloadAudio : <<extended>>
 recorder --> searchAudio
 audiodownloader --> searchAudio
+searchAudio .> authorization : <<included>>
 getMetaData .> searchAudio : <<extended>>
 
 @enduml
