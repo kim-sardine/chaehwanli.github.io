@@ -10,5 +10,4 @@ title : Usecase of audio storage Manager
 
 
 # Use Case Diagram
-![usecase_audio_storage](..\plantuml\usecase_audio_storage_manager.iuml)
-
+![usecase_audio_storage](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/chaehwanli/chaehwanli.github.io/gh-pages/plantuml/usecase_audio_storage_manager.iuml)
